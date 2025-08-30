@@ -1,0 +1,86 @@
+{
+  "embermage": {
+    "name": "EmberMage",
+    "class": "Mage",
+    "level": 50,
+    "hp": 80,
+    "attack": 20,
+    "defense": 15,
+    "sp_attack": 95,
+    "sp_defense": 70,
+    "speed": 65,
+    "abilities": [
+      "Pyromancer"
+    ],
+    "moves": [
+      "Firebolt",
+      "Ignite",
+      "FlameShield",
+      "QuickStrike"
+    ],
+    "personality": "Aggressive"
+  },
+  "ironknight": {
+    "name": "IronKnight",
+    "class": "Warrior",
+    "level": 50,
+    "hp": 140,
+    "attack": 95,
+    "defense": 120,
+    "sp_attack": 30,
+    "sp_defense": 60,
+    "speed": 40,
+    "abilities": [
+      "ShieldWall"
+    ],
+    "moves": [
+      "Slash",
+      "ShieldBash",
+      "Earthquake",
+      "Fortify"
+    ],
+    "personality": "Stoic"
+  },
+  "windblade": {
+    "name": "WindBlade",
+    "class": "Rogue",
+    "level": 50,
+    "hp": 95,
+    "attack": 85,
+    "defense": 55,
+    "sp_attack": 45,
+    "sp_defense": 50,
+    "speed": 120,
+    "abilities": [
+      "Evasive"
+    ],
+    "moves": [
+      "QuickStrike",
+      "Backstab",
+      "SmokeBomb",
+      "PoisonDart"
+    ],
+    "personality": "Cunning"
+  },
+  "mistcaller": {
+    "name": "MistCaller",
+    "class": "Support",
+    "level": 50,
+    "hp": 100,
+    "attack": 30,
+    "defense": 50,
+    "sp_attack": 80,
+    "sp_defense": 110,
+    "speed": 60,
+    "abilities": [
+      "Healer"
+    ],
+    "moves": [
+      "Heal",
+      "MistBlast",
+      "Purify",
+      "CalmAura"
+    ],
+    "personality": "Calm"
+  }
+}

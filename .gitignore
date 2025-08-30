@@ -1,0 +1,50 @@
+# --------------------------
+# Environment / Config files
+# --------------------------
+.env
+.env.local
+.env.*.local
+
+# --------------------------
+# Python virtual environments
+# --------------------------
+venv/
+ENV/
+.env/
+
+# --------------------------
+# OS generated files
+# --------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# --------------------------
+# Python cache / compiled files
+# --------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --------------------------
+# Logs and temporary files
+# --------------------------
+*.log
+*.tmp
+*.bak
+
+# --------------------------
+# IDE / Editor files
+# --------------------------
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# --------------------------
+# Build / Distribution folders
+# --------------------------
+build/
+dist/
+*.egg-info/

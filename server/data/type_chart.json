@@ -1,0 +1,20 @@
+{
+  "Fire": {
+    "Earth": 0.8,
+    "Fire": 0.8,
+    "Magic": 1.0,
+    "Poison": 1.0
+  },
+  "Physical": {},
+  "Earth": {
+    "Fire": 1.2,
+    "Magic": 0.9
+  },
+  "Magic": {},
+  "Poison": {
+    "Physical": 1.0,
+    "Magic": 1.0
+  },
+  "Holy": {},
+  "Status": {}
+}

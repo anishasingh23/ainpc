@@ -1,0 +1,92 @@
+{
+  "Firebolt": {
+    "type": "Fire",
+    "power": 85,
+    "category": "Special",
+    "burn_chance": 0.2
+  },
+  "Ignite": {
+    "type": "Fire",
+    "power": 50,
+    "category": "Special",
+    "burn_chance": 0.35
+  },
+  "FlameShield": {
+    "type": "Fire",
+    "power": 0,
+    "category": "Status",
+    "effect": "Fortify"
+  },
+  "QuickStrike": {
+    "type": "Physical",
+    "power": 40,
+    "category": "Physical",
+    "priority": 1
+  },
+  "Slash": {
+    "type": "Physical",
+    "power": 75,
+    "category": "Physical",
+    "crit_chance": 0.06
+  },
+  "ShieldBash": {
+    "type": "Physical",
+    "power": 60,
+    "category": "Physical",
+    "stun_chance": 0.2
+  },
+  "Earthquake": {
+    "type": "Earth",
+    "power": 100,
+    "category": "Physical",
+    "area": true
+  },
+  "Fortify": {
+    "type": "Status",
+    "power": 0,
+    "category": "Status",
+    "effect": "Fortify"
+  },
+  "Backstab": {
+    "type": "Physical",
+    "power": 95,
+    "category": "Physical",
+    "crit_chance": 0.12
+  },
+  "SmokeBomb": {
+    "type": "Status",
+    "power": 0,
+    "category": "Status",
+    "effect": "Evade"
+  },
+  "PoisonDart": {
+    "type": "Poison",
+    "power": 30,
+    "category": "Physical",
+    "poison_chance": 0.3
+  },
+  "Heal": {
+    "type": "Holy",
+    "power": 0,
+    "category": "Status",
+    "effect": "Heal"
+  },
+  "MistBlast": {
+    "type": "Magic",
+    "power": 70,
+    "category": "Special",
+    "slow_chance": 0.15
+  },
+  "Purify": {
+    "type": "Holy",
+    "power": 0,
+    "category": "Status",
+    "effect": "Cleanse"
+  },
+  "CalmAura": {
+    "type": "Status",
+    "power": 0,
+    "category": "Status",
+    "effect": "Calm"
+  }
+}
