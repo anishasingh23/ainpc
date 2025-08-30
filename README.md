@@ -24,7 +24,6 @@ pip install -r requirements.txt
 ```bash
 python scripts/set_env.py --key <YOUR_GROQ_KEY>
 ```
-> **Security note:** You shared a Groq key in the chat. Do **not** paste keys into public repos. Rotate that key now in Groq console and use a fresh key locally.
 4. Start the MCP server (Streamable HTTP):
 ```bash
 python server/mcp_server.py http --host 127.0.0.1 --port 8000
@@ -43,13 +42,3 @@ streamlit run dashboard/app.py
 - `client/` — Demo client using MCP streamable HTTP client.
 - `dashboard/` — Minimal Streamlit UI to run matches and view logs.
 - `scripts/set_env.py` — Helper to write .env locally with your key (do not commit).
-
-## How it maps to Scopely JD
-- Demonstrates **MCP** resource & tool patterns for conversational knowledge bases and QA automation.
-- Shows **autonomous agents**: NPCs choose actions via LLM prompting (Groq) and use structured context from MCP.
-- Includes **AI avatars / NPCs** and an analytics-ready battle log for product insights.
-
-## Extend
-- Add more NPCs / moves in `server/data/`.
-- Add a recommendation tool `recommend_move(npc, opponent)` as an MCP tool.
-- Add streaming narration or a replay system for the dashboard.
